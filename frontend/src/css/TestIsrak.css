@@ -1,0 +1,33 @@
+.TestPage {
+  margin:auto;
+  background-color: rgb(29, 152, 140);
+  background-image: url('/public/images/grin.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Tahoma', sans-serif;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+div.TestPage h2 {
+  color: #333;
+}
+
+
+div.TestPage p {
+  color: #332c2c;
+  line-height: 1.5;
+}
+
+
+div.TestPage a {
+  color: #030a12;
+  text-decoration: none;
+}
+
+div.TestPage a:hover {
+  text-decoration: underline;
+}

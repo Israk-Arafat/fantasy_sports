@@ -1,0 +1,49 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Tahoma', sans-serif;
+}
+
+
+
+.navbar {
+  background-color: #0a70c9; /* Set the background color of the navbar */
+  width: 100%; /* Make the navbar span the full width */
+  padding: 15px; /* Add padding to the navbar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100; /* Ensure the navbar is above other elements */
+  display: flex; /* Make the navbar a flex container */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar ul {
+  list-style: none; /* Remove bullet points from the list */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px; /* Adjust spacing between navbar items */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff; /* Set the text color of the links */
+  padding: 10px; /* Add padding to the link boxes */
+  border: 1px solid #fff; /* Add a border to the link boxes */
+  border-radius: 5px; /* Add rounded corners to the link boxes */
+}
+
+.navbar a:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0; /* Remove default margin */
+}

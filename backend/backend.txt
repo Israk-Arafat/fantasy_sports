@@ -1,0 +1,4 @@
+Play around with it do some research into what you might need for a webdev backend
+What servers are you going to communicate with?
+How are you going to obtain those servers?
+Do you need a backend, and how soon would you need this backend.

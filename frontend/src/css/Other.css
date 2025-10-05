@@ -1,0 +1,99 @@
+/* src/App.css or your specific CSS file */
+body {
+    background-image: url('/public/images/background.jpg'); /* Set the path to your background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+
+  footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Align the left edge to the left side of the screen */
+    text-align: center;
+    border-top: 1px solid white;
+  }
+  
+
+  header, main{
+    text-align: center;
+    width: 100%; /* Adjust the width based on your preference */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+
+  p {
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+
+  }
+  
+  h1 {
+    margin: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 10px 10px 10px 10px; /* Rounded corners on the top */
+  }
+
+  h2 {
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .team-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .vs-text {
+    margin: 0 10px; /* Adjust margin as needed for spacing */
+  }
+  
+
+  /* Additional styling for specific elements */
+  .content-container {
+    display: flex;
+  }
+  
+  main {
+    flex: 1; /* Distribute available space equally */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+
